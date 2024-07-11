@@ -313,6 +313,7 @@ class TreeBuilder {
     _.map(nodes, function(n) {
       let container = document.createElement('div');
       container.setAttribute('class', n.data.class);
+      container.setAttribute("style","border:1px solid red")
       container.style.visibility = 'hidden';
       container.style.maxWidth = width + 'px';
 
