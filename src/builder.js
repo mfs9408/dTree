@@ -350,7 +350,7 @@ class TreeBuilder {
   static _nodeRenderer(name, x, y, height, width, extra, id, nodeClass, textClass, textRenderer) {
     let node = '';
     node += '<div ';
-    node += 'style="height:100%;width:100%;" ';
+    node += 'style="height:100%;width:100%;border: 1px solid red" ';
     node += 'class="' + nodeClass + '" ';
     node += 'id="node' + id + '">\n';
     node += textRenderer(name, extra, textClass);
