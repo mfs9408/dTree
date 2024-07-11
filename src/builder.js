@@ -128,6 +128,7 @@ class TreeBuilder {
       .attr('height', function(d) {
         return d.cHeight + 'px';
       })
+      .attr('stoke', 'red')
       .attr('id', function(d) {
         return d.id;
       })
